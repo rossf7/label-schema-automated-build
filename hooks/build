@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Build hook test"
-docker build --build-arg VCS_REF=`git rev-parse --short HEAD` -t rossf7/automated-build-test .
+docker build --build-arg VCS_REF=`git rev-parse --short HEAD` -t $IMAGE_NAME .
