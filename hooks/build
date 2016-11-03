@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Build hook test"
+docker build --build-arg VCS_REF=`git rev-parse --short HEAD` .
