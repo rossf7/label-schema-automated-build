@@ -4,4 +4,4 @@
 
 [Dockerfile](https://github.com/rossf7/label-schema-automated-build/blob/master/Dockerfile)
 
-Example of using a Docker Hub automated build with [label-schema.org](http://label-schema.org). Uses a [build hook](https://github.com/rossf7/label-schema-automated-build/blob/master/hooks/build) to label the image with the dynamic org.label-schema.build-date and org.label-schema.vcs-ref labels.
+Example of using a Docker Hub automated build with [label-schema.org](http://label-schema.org). Uses a [build hook](https://github.com/rossf7/label-schema-automated-build/blob/master/hooks/build) to label the image with the dynamic org.label-schema.build-date and org.label-schema.vcs-ref labels. Read the [blog post](https://medium.com/microscaling-systems/labelling-automated-builds-on-docker-hub-f3d073fb8e1#.6wnlnqlhh) for more details.
